@@ -1,0 +1,16 @@
+button
+{
+  background-color: #003AFF;
+  color:white;
+  width:94px;
+  height:31px;
+  margin-left: 31px;
+  border-radius: 10px;
+  font-weight:bold ;
+}
+
+button:hover
+{
+   background-color: #FFBA00;
+   color:black;
+}

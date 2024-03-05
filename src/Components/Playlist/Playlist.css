@@ -1,0 +1,26 @@
+.save_button
+{
+   width:150px;
+   margin-left:40%;
+   margin-top: 15px;
+}
+
+.listTwo
+{
+   display: flex;
+   flex-direction: column;
+   background-color: #AA3957;
+   margin-top: 80px;
+   padding:50px;
+}
+
+.listTwo input{
+   font-size:24px;
+   margin: 30px;
+   padding: 15px;
+   text-align: center;
+   background-color: transparent;
+   border-style: none;
+   border: 1px solid yellow;
+   margin-bottom: 0px;
+}
