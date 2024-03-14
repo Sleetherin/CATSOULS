@@ -73,6 +73,7 @@ class App extends React.Component
 
   render()
   {
+    document.title="CAT SOULS";
     return(
       <>
       <header>
