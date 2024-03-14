@@ -11,41 +11,9 @@ class App extends React.Component
   {
     super(props);
     this.state = {
-    searchResults: [
-        {
-          name:"It is mine",
-          artist:"Lunaria O Feniksi",
-          album:"Songs of weird",
-          id:1,
-        },
-        {
-          name:"Phantims are smelly",
-          artist:"Bella Contella",
-          album:"Architectural dreams",
-          id:2,
-        },
-      ],
+    searchResults: [],
       playlistName:"Example Playlist",
-      playlistTracks:[
-        {
-          name:"29th of February",
-          artist:"Alexandri O Chameria",
-          album:"Chingaboom Chi Chi Cha-Cha",
-          id:3,
-        },
-        {
-          name:"Starting at your birthday",
-          artist:"Hannah D'Angelo",
-          album:"Kim Possible",
-          id:4,
-        },
-        {
-          name:"Underworld",
-          artist:"Osiris O Nentoka",
-          album:"Treasures of the world",
-          id:5,
-        },
-      ],
+      playlistTracks:[],
     };
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
