@@ -76,7 +76,7 @@ class App extends React.Component
     return(
       <>
       <header>
-        <h1>JAMMMING</h1>
+        <h1>CAT SOULS</h1>
         <h4>Save Your Songs to Spotify</h4>
         <SearchBar onSearch={this.search}/>
       </header>
